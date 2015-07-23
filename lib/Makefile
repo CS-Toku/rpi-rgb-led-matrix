@@ -48,7 +48,7 @@ TARGET=librgbmatrix.a
 # pinout changed so that we can make use of the PWM pin for much more stable
 # timing. So even if you have the classic pinout, you might consider wiring
 # up the new one (sorry for the inconvenience).
-#DEFINES+=-DRGB_CLASSIC_PINOUT
+DEFINES+=-DRGB_CLASSIC_PINOUT
 
 # If you use RGB_CLASSIC_PINOUT and use Raspberry Pi 1, Revision A,
 # this might be useful.
