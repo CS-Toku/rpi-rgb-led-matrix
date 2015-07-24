@@ -36,7 +36,7 @@ TARGET=librgbmatrix.a
 # If the above fails or you can't implement them, try uncommenting the
 # following line and recompile; it will slow down GPIO, but will as well reduce
 # the frame-rate.
-#DEFINES+=-DRGB_SLOWDOWN_GPIO
+DEFINES+=-DRGB_SLOWDOWN_GPIO
 
 # ------------ Pinout options; usually no change needed here --------------
 
